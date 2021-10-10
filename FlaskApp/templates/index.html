@@ -1,0 +1,52 @@
+
+<html>
+<head>
+<title>Python Flask Upload and display image</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <title>3D printed poetry</title>
+    <script language="JavaScript"><!--
+function refreshIt() {
+   if (!document.images) return;
+   document.images['drawing'].src = "{{url_for('static',filename='drawing.png')}}";
+   setTimeout('refreshIt()',5000); // refresh every 5 secs
+}
+//--></script>
+
+    <meta http-equiv="Pragma-directive" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Cache-directive" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Cache-control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+</head>
+<body style="font-family: Open Sans; padding:50px 50px; text-align:center; text-justify:left; background-color:#1A1A2E; onLoad="setTimeout(refreshIt(),5000)">
+<!--<p><h1 style="font-size:150px">3D printer poet</h1></p>-->
+<html>
+
+<body>
+<h1 style="text-align:left;margin-bottom:20px; font-size: 20px; color:white;text-decoration-line: underline;text-decoration-style: wavy;">3D PRINTER POET</h1>
+<span style="text-align: left;">
+    <div style="float:left; margin-right: 10px;">
+    <form action = "/" method = "post" enctype="multipart/form-data" >
+        <label for="file" ><h1 style="margin-top:60px; font-size: 10vw; color: #03C4A1; "><i>UPLOAD<br> IMAGE</i></h1></label>
+        <input type="file" name="file" id="file" style="display:none;" onchange="this.form.submit();"/>
+    </form>
+        </div>
+    <div>
+    <form action="/photo" method="post">
+        <label for="camera" ><h1 style="margin-top:60px; font-size: 10vw; color: #892CDC;"><i>TAKE<br> PHOTO</i></h1></label>
+        <input type="submit" name="file" id="camera" style="display:none;" onchange="this.form.submit();"/>
+    </form>
+        </div>
+</span>
+<!--<img src="{{url_for('static',filename='drawing.png')}}" onerror="this.style.display='none'" alt="gcode preview" style="max-width:500px; border-radius:30px;" name="drawing">-->
+
+
+</body>
+</html>
+</body>
+</html>

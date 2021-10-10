@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "dprinterpoet",
+  "private_key_id": "46e87be91ea0dab2702f2440d3777ccf5d048815",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCNpBYCR3RWMqAm\nAQX1zsbPerbRzLsDPptItTPKaeoXMhUBpuZYOM7C0MGMRBHua7SAlshxUZbg7Hwa\ni5/Axkj/5xRWiMJwxnog9kSRWE7XpQtJ/obZD10LIqxlW2t7PqztdPH2SbEaBG7S\n/YdLMNuuxmR5Xj/SD2OneKy7OPZPwhuZRRMrW0pCLhQK4yjjyge1Wol4+V0gT3+H\nWI80zpUQrV/pPLIkBJrcy0L9YUPqKHNYmBO1RpCQaWYB79Oo1eVMVM46meNc7s/K\n6ls3bjj85oepSEwhSDCCREUf9fb8lbIhf0FDlkqi3CRYKUMljHl0oZNk8Fu60VzN\npgFuXSAzAgMBAAECggEAAQ2SSTnHZ66mNyZ6hkYrCtm/eb7SZ3hco6JU30iYYxHZ\nv35CeVJAQFqeUhyXn4kComQZrMCK2XpqD8ikaFv8qNt5KuqeL8+h786GWj+LmFQC\nMrRP2vifrZiPiC9fwzvBXulKtTfOwwfM86s/fagGGs98r3c3I8ublb0yhhiH/4eE\nNSrXpsChF3Z3iGX695C3moQZ1dO6JzG+mQskzh4i3KPBUIuyUp+HEKCJ5W2zznP2\nEXEo4EhKgh5Z35iWPZR9lyN8tl2djBwQUSzVF6u9bAX8hDJCtzmw7U6aKlJG0eNj\ncn0WWMiTvnkLE94sriwmg+KSWygnXOVj9kmxujb0yQKBgQC/kk5bx4S5OVq9x1KT\nDFHBQNXd3rs+iWfDTZMEFzYqBxw9Powh6BMr7ly4l1nA8E9WhNMGRmEMHWh2pxId\nXg8ledRWf5JEGdmRu9I5Pg3bhgEpCFPmktksMB87+9ZIZQq5qtoNzYPRfyPD5/Me\n5vd3i3GlX8LObS53WEvXwHrJCQKBgQC9RutlR12cPCSQlb0aGstSlaG+AZk+LhDN\nsykYSvrNXH+Oyx3fYYqph7qeejTQM/tHIHULh3SvfF4zna/rRaO4HKQho4AJirJu\nDq5uFkRltX5FPaXL+SrMlE8DKavS5xtC8mlv56as8GNsQl4GQaHmsJArlufgGkxl\nR/bfttbaWwKBgBygPydFxBZtdJrBKxygDaNkDdEulCo/HAs6D0rgMQ7MqzKXoxb5\n98trvd0zeIz1G9Xg2Sup3pyR1GdOhc1vnbHK56jZPUEB39oAB+TX2fhAqPG5tdfR\nf7QzqKcs9ZMxzg16c0T2vcjTR8PhaBnpB3eMlbnRemmgNP5Oal7d+zsJAoGAHeo1\njh5HZ0gCJ2/jIVsWw4iutY8fHzq8oSYt2o8PMKHr7y+fGw0Zk03GawG5kyaEEmvI\n0/ems42efd3wTekFxTWRo1dqBxgKt2ZOn0uZp9GVkW/64lAROaA/FKrjY0PvhRc3\nHt6n8zFTJWsf3TFGW2WQg7MoFr1RUbicBiOptX0CgYEAv3z5zLftXuGFKNMnpiCN\nVW3Uzf6PfnLw/SFY1gprh2zeEkxyRvXyR90wcLA9LcNj6ojJJ5BbG4xkEyjdBUCa\nq2LkRYBBYLUAxfod4XLLo37qRBCOWGuPJfNfLZLVdKKaREk5TvYgpBl2k/xmh/v3\ncgsUFfRR2OVVOHleDS8uOw0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "id-dprinterpoet@dprinterpoet.iam.gserviceaccount.com",
+  "client_id": "109828371857606430385",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/id-dprinterpoet%40dprinterpoet.iam.gserviceaccount.com"
+}
