@@ -1,13 +1,15 @@
 
-#About
+# About
 An adaptation of the traditional photobooth, using Natural Language Processing and Computer Vision to extract poetry from 'selfies' and write them out on paper using a 3D printer. 
 <p/>In contrast with traditional photobooths, it produces a physical artifact, dynamically writing poetry through generated gcode, expressing an interpretation of what the program 'sees'.
+<p/>
+<img src="/images/img.png" alt="" />
 
-#To Run application
+# To Run application
 - pip install requirements.txt.
 - run FlaskApp/app.py
 
-##Checklist
+## Checklist
 1. In the main directory, add open ai GPT3 key in haikuGenerator on line 61. Also add a googleCloudKey.json file with your google cloud api details.
 2. Check Cura's usb driver value once printer is plugged in in the <i>monitoring</i> tab.
 3. Check Computer's public IPV4 address, ensure that phone app connects to the right address. 
