@@ -58,9 +58,7 @@ def classifyImage():
 def getConversation(topic):
 
     prompt="My friend wrote some poems: ''' An old silent pond... A frog jumps into the pond, splash! Silence again. Autumn moonlight- a worm digs silently into the chestnut. In the twilight rain these brilliant-hued hibiscus - A lovely sunset. I want to sleep Swat the flies Softly, please. After killing a spider, how lonely I feel in the cold of night! For love and for hate I swat a fly and offer it to an ant. A mountain village under the piled-up snow the sound of water. Night; and once again, the while I wait for you, cold wind turns into rain. The summer river: although there is a bridge, my horse goes through the water. A lightning flash: between the forest trees I have seen water. ''' I wrote a 20 word poem about "+topic+ ":'''"
-    # with open('.apiKey.txt') as f:
-    #     openai.api_key = f.readline()
-    openai.api_key='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'
+    openai.api_key='YOUR_OPEN_API_KEY'
     response = openai.Completion.create(
         engine="davinci",
         prompt=prompt,
